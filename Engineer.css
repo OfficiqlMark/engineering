@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    width: 100%;
+}
+.topheader{
+    background-color: antiquewhite;
+}
+
+ .topheader .container{
+    
+    color: rgb(62, 62, 120);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+ .topheader .container a{
+    text-decoration: none;
+    justify-content: space-around;
+    
+}
+
+.white{
+    color: white;
+}
+header{
+    background-color: rgb(22, 22, 88);
+}
+header .container{
+    
+    color: azure;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+}
+ a{
+    text-decoration: none;
+    
+
+}
+.firstclass{
+    background-image:url(waterfill.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    /* padding-bottom: 350px; */
+}
+
+#whiteh1{
+    color: azure;
+}
+#padheadtext{
+    padding-top: 100px;
+}
+
+.learnmore{
+    padding-top: 10px;
+    padding-bottom: 8px;
+    width: 28%;
+    color: white;
+    background-color: rgb(26, 26, 88);
+}
+.boxedparent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 55px;
+}
+.boxed{
+    text-align: center;
+    border: 2px solid black;
+    margin: 5px;
+    border-collapse: separate;
+    width: 25em;
+      
+}
+
+.boxedparent .bx{
+    font-size: 3em;
+}
+
+.thirdclass .container{   
+   margin:0% auto;
+    text-align: inherit; 
+    width: 100%;
+    padding-bottom: 100px;
+}
+.imageparent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container .imageparent .learnmoree{
+    background-color: rgb(40, 40, 97);
+    color: whitesmoke;
+    margin-top: 1em;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 28%;
+}
+.container .imagetext{
+    text-size-adjust: 4em;
+}
+
+.fourthclass .container {
+    display: flex;
+    padding-bottom: 100px;
+}
+.fourthclass .industrial{
+    background-image: url(engine01.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 20em;
+    width: 40em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.fourthclass .commercial{
+    background-image: url(engine02.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 20em;
+    width: 40em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.fifthclass .container{
+     display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    margin: 0% auto;
+    padding-bottom: 100px;  
+}
+
+ .container .img1 img{
+    width: 25em;
+    height: 25em;
+}
+
+.sixthclass .container .writeupone {
+    display: grid;
+    justify-items:center;
+    align-items: center;
+    background-color: rgb(40, 40, 96);
+    color: aliceblue;
+    width: 25em;
+    height: 15em
+}
+.sixthclass .container .writeupone a{
+    color: aliceblue;
+}
+
+.sixthclass .container .writeuptwo {
+    display: grid;
+    justify-items:center;
+    align-items: center;
+    background-color: rgb(29, 29, 83);
+    color: aliceblue;
+    width: 25em;
+    height: 15em
+}
+
+.sixthclass .container .writeupthree {
+    display: grid;
+    justify-items:center;
+    align-items: center;
+    background-color: rgb(29, 29, 83);
+    color: aliceblue;
+    width: 25em;
+    height: 15em
+}
+
+.container .img2 img{
+    width: 25em;
+    height: 25em;
+}
+
+.container .img3 img{
+    width: 25em;
+    height: 25em;
+}
+
+.sixthclass .container .writeuptwo a{
+    color: aliceblue;
+}
+
+.sixthclass .container .writeupthree a{
+    color: aliceblue;
+}
+
+
+
+.sixthclass .container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-bottom: 100px;
+ 
+}
+
+.seventhclass .container{
+    border-top: 2px solid black;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+    
+
+
+
+
+
